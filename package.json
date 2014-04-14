@@ -1,0 +1,18 @@
+{
+  "name": "stopwatch",
+  "version": "0.0.0",
+  "description": "Lightweight stopwatch for ad-hoc timing and instrumentation",
+  "main": "stopwatch.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Neil de Carteret <n3dst4@gmail.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1",
+    "requirejs": "~2.1.11",
+    "node-static": "~0.7.3",
+    "open": "0.0.5"
+  }
+}
