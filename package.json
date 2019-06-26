@@ -9,10 +9,10 @@
   "author": "Neil de Carteret <n3dst4@gmail.com>",
   "license": "BSD",
   "devDependencies": {
-    "mocha": "~1.18.2",
     "chai": "~1.9.1",
-    "requirejs": "~2.1.11",
+    "mocha": "^6.1.4",
     "node-static": "~0.7.3",
-    "open": "0.0.5"
+    "open": "^6.3.0",
+    "requirejs": "~2.1.11"
   }
 }

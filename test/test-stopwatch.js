@@ -1,6 +1,11 @@
 /*jshint quotmark: false */
 /*globals describe, it, chai, stopwatch */
 "use strict";
+var isModule = typeof require !== "undefined";
+
+var stopwatch = isModule ? require("../stopwatch") : window.stopwatch;
+var chai = isModule ? require("chai") : window.chai;
+
 describe('stopwatch', function() {
     var testDuration = 200;
     var margin = testDuration / 10;
